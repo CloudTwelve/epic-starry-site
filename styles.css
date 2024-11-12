@@ -1,1 +1,34 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: linear-gradient(
+        0deg,
+        white 10%,
+        lightcyan 20%,
+        skyblue 30%,
+        deepskyblue 40%,
+        dodgerblue 50%,
+        mediumblue 60%,
+        darkblue 70%,
+        midnightblue 80%,
+        darkslateblue 90%,
+        rebeccapurple 100%
+    );
+    background-position: top;
+    background-size: 400vh;
+    min-height: 100%;
+    transition: background-position ease-in-out 4s;
+}
+
+
+nav {
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    opacity: 40%;
+}
+
+.title {
+    color: black;
+}
 
